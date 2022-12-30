@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root{
+    --light_blue:#66FCF1;
+    --white: white;
+    
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body{
+    background-color:#333 ;
+}
+.main{
+    width: auto;
+    height: 400px;
+    background-color: rebeccapurple;
+    background:linear-gradient(to right, #333,rebeccapurple);
+ 
+ 
+    
+}
+
+
+.main .title{
+    color: var(--light_blue) ;
+   
+    padding-left: 130px;
+    font-size: 50px;
+    z-index: 1;
+   
+   
+}
+.main h2{
+    color:#45A29E ;
+    padding-top: 230px;
+    padding-left: 130px;
+    font-size: 20px;
+    font-weight: 900;
+   
+   
+}
+.design_pic{
+    margin-top: -200px;
+    z-index: 3;
+    width: 680px;
+    height: 400px;
+    margin-left: 650px;
+}
+hr{
+    height: 1px;
+    border-width: 0;
+    background-color: rgb(117, 113, 113);
+}
+img{
+   display: block;
+  margin-left: 50px;
+   margin-right: auto;
+   margin-top: 45px;
+   width: 700px;
+   height: 400px;
+   float: left;
+}
+.left{
+    
+    float: left;
+    color: white;
+    margin-top: -150px;
+}
+.left h3{
+    padding-left: 100px;
+}
+.left ul li{
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-top: 10px;
+    font-size: 12px;
+    float: left;
+}
+.images {
+    padding-left: 50px;
+    width: 100px;
+    height: 100px;
+   
+    
+    display: inline;
+    
+}
+.images img{
+
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+   
+    
+}
+.images img:hover{
+
+    width: 160px;
+    height: 100px;
+    margin: 5px;
+    border: #66FCF1 solid 5px;
+   
+    
+}
+
+
+.main_p{
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    color: white;
+    padding-bottom: 100px;
+}
+
+
+
+@media (max-width:400px){
+    
+    *{
+        font-family: 'Nunito', sans-serif;
+        margin:0; padding:0;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none; border:none;
+        text-transform: capitalize;
+        transition: all .2s linear;
+    }
+    
+    body{
+        background-color:#333 ;
+    }
+    .main{
+        width: auto;
+        height: 400px;
+        background-color: rebeccapurple;
+        background:linear-gradient(to right, #333,rebeccapurple);
+     
+     
+        
+    }
+    
+    
+    .main .title{
+        color: var(--light_blue) ;
+       
+        padding-left: 50px;
+        font-size: 30px;
+        z-index: 1;
+       
+       
+    }
+    .main h2{
+        color:#45A29E ;
+        padding-top: 180px;
+        padding-left: 30px;
+        font-size: 10px;
+        font-weight: 900;
+       
+       
+    }
+    .design_pic{
+        display: none;
+    }
+    hr{
+        height: 1px;
+        border-width: 0;
+        background-color: rgb(117, 113, 113);
+    }
+    img{
+       display: block;
+      margin-left: 50px;
+       margin-right: auto;
+       margin-top: 45px;
+       width: 700px;
+       height: 400px;
+       float: left;
+    }
+    .left{
+        
+        float: left;
+        color: white;
+        margin-top: 10px;
+    }
+    .left h3{
+        margin-left: -70px;
+        
+    }
+    .left ul li{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 12px;
+        float: left;
+    }
+    .images {
+        padding-left: 50px;
+        width: 100px;
+        height: 100px;
+       
+        
+        display: inline;
+        
+    }
+    .images img{
+    
+        width: 380px;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+        
+    }
+    .images img:hover{
+    
+        width: 160px;
+        height: 100px;
+        margin: 5px;
+        border: #66FCF1 solid 5px;
+       
+        
+    }
+    
+    
+    .main_p{
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+        color: white;
+        padding-bottom: 100px;
+    }
+    
+   
+}
